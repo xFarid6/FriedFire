@@ -18,7 +18,7 @@
         -> Click on tab (Color Conversion)
         -> Copy the color mode (HSL)
   */
-  --hue: 14;
+  --hue: 162;
   --first-color: hsl(var(--hue), 55%, 55%);
   --first-color-light: hsl(var(--hue), 55%, 65%);
   --first-color-alt: hsl(var(--hue), 50%, 50%);
@@ -270,7 +270,7 @@ img {
 }
 
 .home__name{
-  font-style: var(--biggest-font-size);
+  font-size: var(--biggest-font-size);
   font-weight: var(--font-bold);
   word-break: break-word;
   margin-bottom: 1rem;
@@ -307,6 +307,7 @@ img {
   display: grid;
   font-size: 1.5rem;
   overflow: hidden;
+  justify-items: center;
 }
 
 .home__scroll-text{
